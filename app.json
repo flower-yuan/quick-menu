@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/ceshi/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#9A9A9A",
+    "selectedColor": "#452F05",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/menu",
+        "text": "菜单"
+      },
+      {
+        "pagePath": "pages/food-ingredient",
+        "text": "食材"
+      },
+      {
+        "pagePath": "pages/my-information",
+        "text": "我的"
+      }
+    ]
+  }
+}
