@@ -1,4 +1,2 @@
-<!--index.wxml-->
-<view class="container">
-  <view>我的</view>
-</view>
+<!--pages/ceshi/index.wxml-->
+<text>pages/ceshi/index.wxml</text>

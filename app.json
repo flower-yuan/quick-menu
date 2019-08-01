@@ -1,8 +1,8 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/ceshi/index"
+    "pages/my-information/index",
+    "pages/menu/index",
+    "pages/food-ingredient/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -17,15 +17,15 @@
     "borderStyle": "black",
     "list": [
       {
-        "pagePath": "pages/menu",
+        "pagePath": "pages/menu/index",
         "text": "菜单"
       },
       {
-        "pagePath": "pages/food-ingredient",
+        "pagePath": "pages/food-ingredient/index",
         "text": "食材"
       },
       {
-        "pagePath": "pages/my-information",
+        "pagePath": "pages/my-information/index",
         "text": "我的"
       }
     ]
