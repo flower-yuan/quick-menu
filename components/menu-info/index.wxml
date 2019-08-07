@@ -1,0 +1,20 @@
+<!--components/menu-item/index.wxml-->
+<view class="menu-info">
+  <view class="menu-name">私房菜</view>
+  <view wx:for="{{infoList}}" wx:key="index">
+    <view class="menu-item">
+      <image class="" src="" mode="aspectFit" lazy-load="false" />
+      <view class="menu-center">
+        <view>菜名</view>
+        <view>
+          <text>标签1</text>
+          <text>标签1</text>
+          <text>标签1</text>
+        </view>
+      </view>
+      <text class="menu-button">+优选</text>
+      
+    </view>
+  </view>
+
+</view>

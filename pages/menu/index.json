@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "菜单",
-  "usingComponents": {}
+  "usingComponents": {
+    "menu-info": "../../components/menu-info/index"
+  }
 }

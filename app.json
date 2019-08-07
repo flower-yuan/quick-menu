@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/my-information/index",
     "pages/menu/index",
+    "pages/my-information/index",
     "pages/food-ingredient/index"
   ],
   "window": {
@@ -17,15 +17,15 @@
     "list": [
       {
         "pagePath": "pages/menu/index",
-        "text": "菜单"
+        "text": "精选菜单"
       },
       {
         "pagePath": "pages/food-ingredient/index",
-        "text": "食材"
+        "text": "食材准备"
       },
       {
         "pagePath": "pages/my-information/index",
-        "text": "我的"
+        "text": "我的厨房"
       }
     ]
   }

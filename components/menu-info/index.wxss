@@ -1,0 +1,33 @@
+.menu-info {
+  padding: 16rpx;
+
+}
+
+.menu-name {
+  font-size: 28rpx;
+}
+.menu-item {
+  display: flex;
+  margin-bottom: 16rpx;
+}
+
+image {
+  width: 100rpx;
+  height: 100rpx;
+  background: red;
+  margin-right: 16rpx;
+}
+.menu-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+.menu-center text {
+  font-size: 24rpx;
+  color: #7a7a7a;
+}
+
+.menu-button {
+  line-height: 100rpx;
+}

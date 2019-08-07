@@ -1,21 +1,44 @@
-/**index.wxss**/
-.userinfo {
+page {
+  height: 100%;
+}
+.container {
   display: flex;
   flex-direction: column;
+  height: 100%;
+}
+
+.selectTap {
+  display: flex;
+  height: 66rpx;
+  justify-content: space-around;
+}
+.banner {
+  height: 200rpx;
+  background: pink;
+}
+
+.content {
+  flex: 1;
+  background: yellow;
+  overflow: hidden;
+  display: flex;
+}
+.rightScroll {
+  height: 100%;
+  width: 136rpx;
+}
+.leftScroll {
+  height: 100%;
+  flex: 1;
+  background: papayawhip;
+}
+
+.menuItem {
+  height: 88rpx;
+  width: 136rpx;
+  display: flex;
   align-items: center;
-}
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
+  justify-content: center;
+  font-size: 24rpx;
+  color: #4a4a4a;
 }
