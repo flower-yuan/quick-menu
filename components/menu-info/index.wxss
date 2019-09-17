@@ -4,6 +4,9 @@
 }
 
 .menu-name {
+  position: sticky;
+  top: 16rpx;
+  background: green;
   font-size: 28rpx;
 }
 .menu-item {

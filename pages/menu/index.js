@@ -1,7 +1,7 @@
 Page({
   data: {
     menuList: [1,2,3,4,5,6,7,8,9,10,11,12,13,14],
-    menuInfoList: [1,2,3,4]
+    menuInfoList: [1,2,3,4,5]
   },
   onLoad: function(options) {
     //Do some initialize when page load.

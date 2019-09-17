@@ -10,7 +10,7 @@ Component({
    * 组件的初始数据
    */
   data: {
-    infoList: [1,2]
+    infoList: [1,2,3,4,5,6]
   },
 
   /**
